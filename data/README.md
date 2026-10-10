@@ -16,9 +16,12 @@ GSE121091 contains gene-expression data from *C. elegans* exposed to *P. aerugin
 
 ## Data Files
 
-The project’s compiled gene dataset is available in [`C.elegans-PA14-infection-transcriptomics.csv`](../data/C.elegans-PA14-infection-transcriptomics.csv).
+## Data Files
 
-Additional STRING network files, protein annotations, functional annotations, and node-degree data are organized in the [`string-network`](../string-network/) directory.
+- [`C.elegans-PA14-infection-transcriptomics.csv`](C.elegans-PA14-infection-transcriptomics.csv) — compiled gene-expression dataset used in the project.
+- [`string-network/`](../string-network/) — contains the STRING network visualization, protein-association data, protein and functional annotations, and node-degree table.
+- [`Results.md`](../Results.md) — detailed findings, network interpretation, and biological insights.
+- [Main repository README](../README.md) — project overview and repository structure.
 
 ## Data Handling
 
