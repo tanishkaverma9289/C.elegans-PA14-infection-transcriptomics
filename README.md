@@ -1,6 +1,6 @@
 # *C. elegans*–PA14 Infection Transcriptomics
 
-**Bioinformatics analysis of host transcriptional responses to bacterial infection**
+**Gene-expression patterns and protein interaction networks in C. elegans during P. aeruginosa PA14 infection**
 
 ## Overview
 
