@@ -45,36 +45,28 @@ The project includes GEO dataset exploration, compiled data organization, and ST
 
 The findings are based on computational analysis of public data and should be interpreted in the context of the original study and relevant scientific literature.
 
-## Data Source and Acknowledgment
+## Data Sources and Acknowledgment
 
-The data used in this project originate from the public GEO study [GSE121091](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE121091). Credit for the original experimental data belongs to the original study authors.
+This project uses publicly available data from the [NCBI Gene Expression Omnibus (GEO), accession GSE121091](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE121091), alongside protein association information obtained from the [STRING database](https://string-db.org/).
 
-This repository documents an independent computational reanalysis and does not represent an original wet-lab experiment.
-
-## Disclaimer
-
-Candidate genes, enriched pathways, and network associations will be interpreted as computational findings and evaluated in the context of the available data and published literature.
+Credit for the original experimental data belongs to the original study authors. This repository documents an independent computational analysis and does not represent an original wet-lab experiment.
 
 ## Repository Contents
 
-### 1. Compiled Gene Data
-
-- [Compiled gene-comparison dataset](data/C.elegans-PA14-infection-transcriptomics.csv)
+### Compiled Gene Data
+- [Gene-comparison dataset](data/C.elegans-PA14-infection-transcriptomics.csv)
 - [Data documentation](data/README.md)
 
-### 2. STRING Network Analysis
-
-- [STRING network visualization](string-network/bitmap-C.elegans.png)
+### STRING Network Analysis
+- [Network visualization](string-network/bitmap-C.elegans.png)
 - [Protein interaction table](string-network/Tabular%20Output-C.elegans.tsv)
 - [Protein annotations](string-network/Protein%20annotations-C.elegans.tsv)
 - [Functional annotations](string-network/Functional%20annotations-C.elegans.tsv)
 - [Protein node-degree table](string-network/string%20node%20degrees-C.elegans.tsv)
 - [STRING analysis documentation](string-network/README.md)
 
-## Data Source
+## Reproducibility and Interpretation
 
-The project uses publicly available data associated with [NCBI GEO accession GSE121091](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE121091) and protein association information from [STRING](https://string-db.org/).
+The repository provides compiled gene data, STRING network exports, and associated annotations. For reproducibility, analytical methods, data-processing steps, filtering criteria, and relevant STRING settings should be documented alongside the results.
 
-## Reproducibility
-
-The repository contains compiled data and network exports used in the project. Analysis methods, filtering criteria, and interpretation should be documented so that the computational workflow can be evaluated and reproduced.
+Gene-level findings and network associations should be interpreted in the context of the available data and published literature. STRING associations alone do not establish direct physical interactions or prove that a gene responds to infection.
