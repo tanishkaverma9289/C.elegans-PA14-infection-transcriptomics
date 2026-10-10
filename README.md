@@ -54,3 +54,27 @@ This repository documents an independent computational reanalysis and does not r
 ## Disclaimer
 
 Candidate genes, enriched pathways, and network associations will be interpreted as computational findings and evaluated in the context of the available data and published literature.
+
+## Repository Contents
+
+### 1. Compiled Gene Data
+
+- [Compiled gene-comparison dataset](data/C.elegans-PA14-infection-transcriptomics.csv)
+- [Data documentation](data/README.md)
+
+### 2. STRING Network Analysis
+
+- [STRING network visualization](string-network/bitmap-C.elegans.png)
+- [Protein interaction table](string-network/Tabular%20Output-C.elegans.tsv)
+- [Protein annotations](string-network/Protein%20annotations-C.elegans.tsv)
+- [Functional annotations](string-network/Functional%20annotations-C.elegans.tsv)
+- [Protein node-degree table](string-network/string%20node%20degrees-C.elegans.tsv)
+- [STRING analysis documentation](string-network/README.md)
+
+## Data Source
+
+The project uses publicly available data associated with [NCBI GEO accession GSE121091](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE121091) and protein association information from [STRING](https://string-db.org/).
+
+## Reproducibility
+
+The repository contains compiled data and network exports used in the project. Analysis methods, filtering criteria, and interpretation should be documented so that the computational workflow can be evaluated and reproduced.
