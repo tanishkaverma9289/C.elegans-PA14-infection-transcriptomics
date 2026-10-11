@@ -12,11 +12,11 @@ The network highlights connected protein groups and candidate network hubs for f
 
 ## Files
 
-- [bitmap-C.elegans.png](string-network/bitmap-C.elegans.png) - STRING protein-association network visualization.
-- [Tabular Output-C.elegans.tsv](string-network/Tabular%20Output-C.elegans.tsv) - tabular network data, including protein associations and evidence scores.
-- [Protein annotations-C.elegans.tsv](string-network/Protein%20annotations-C.elegans.tsv) - protein annotation information.
-- [Functional annotations-C.elegans.tsv](string-network/Functional%20annotations-C.elegans.tsv) - functional annotations associated with the analyzed proteins.
-- [string node degrees-C.elegans.tsv](string-network/string%20node%20degrees-C.elegans.tsv) - node-degree values showing the number of connections for each network node.
+- [bitmap-C.elegans.png](bitmap-C.elegans.png) - STRING protein-association network visualization.
+- [Tabular Output-C.elegans.tsv](Tabular%20Output-C.elegans.tsv) - tabular network data, including protein associations and evidence scores.
+- [Protein annotations-C.elegans.tsv](Protein%20annotations-C.elegans.tsv) - protein annotation information.
+- [Functional annotations-C.elegans.tsv](Functional%20annotations-C.elegans.tsv) - functional annotations associated with the analyzed proteins.
+- [string node degrees-C.elegans.tsv](string%20node%20degrees-C.elegans.tsv) - node-degree values showing the number of connections for each network node.
 
 ## Data Source
 
